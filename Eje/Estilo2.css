@@ -1,0 +1,738 @@
+*{
+    background-color: black;
+}
+p{
+color: white;
+}
+.section {
+    display: none;
+    margin: auto;
+    width: 1300px;
+    height: 800px;
+    }
+    #cámara1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        justify-content: center;
+        align-items: center;
+        top: 5pt;
+        float: right;
+        right: 15pt;
+        width: 500px;
+        height: 190px;
+    }
+    #cámara2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        position: relative;
+        left: 35pt;
+        top: 15pt;
+        width: 700px;
+        height: 120px;
+    }
+    #cámara3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        position: relative;
+        left: 18pt;
+        top: 25pt;
+        width: 300px;
+        height: 190px;
+    }
+    #cámara4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        position: relative;
+        bottom: 113pt;
+        left: 258pt;
+        width: 420px;
+        height: 175px;
+    }
+    #cámara5{
+        display: flex;
+        border: solid white;
+        position: relative;
+        bottom: 205pt;
+        left: 770pt;
+        width: 240px;
+        height: 340px;
+    }
+    #Poema5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 25pt;
+        width: 240px;
+        height: 170px;
+    }
+    #cámara6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        position: relative;
+        bottom: 465pt;
+        left: 590pt;
+        width: 210px;
+        height: 340px;
+    }
+    #cámara7{
+        display: flex;
+        border: solid white;
+        position: relative;
+        bottom: 605pt;
+        left: 35pt;
+        width: 500px;
+        height: 190px;
+    }
+    #Poema7{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 190px;
+    }
+
+    #cámara8{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        position: relative;
+        bottom: 580pt;
+        left: 15pt;
+        width: 190px;
+        height: 190px;
+    }
+    #cámara9{
+        display: flex;
+        border: solid white;
+        position: relative;
+        bottom: 722.5pt;
+        left: 175pt;
+        width: 285px;
+        height: 190px;
+    }
+    #Poema9{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 285px;
+        height: 190px;
+    }
+    #cámara10{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        position: relative;
+        bottom: 1029pt;
+        left: 425pt;
+        width: 199px;
+        height: 310px;
+    }
+    #cámara11{
+        display: flex;
+        border: solid white;
+        position: relative;
+        bottom: 1100pt;
+        left: 590pt;
+        width: 500px;
+        height: 85px;
+    }
+    #Poema11{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 85px;
+    }
+    #cámara12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid white;
+        position: relative;
+        bottom: 1080pt;
+        left: 430pt;
+        width: 700px;
+        height: 85px;
+    }
+
+    .boton-modal1{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal1 label{
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal1 label:hover{
+    }
+    #btn-modal1{
+        display: none;
+    }
+    .container-modal1{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal1:checked ~ .container-modal1{
+        display: flex;
+    }
+    .content-modal1{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-modal1 h2{
+        margin-bottom: 15px;
+    }
+    .content-modal1 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal1 .btn-cerrar1{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal1 .btn-cerrar1 label{
+        padding: 7px 10px;
+        background-color: rgb(16, 47, 132);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal1 .btn-cerrar1 label:hover{
+        background-color: rgb(18, 18, 167);
+    }
+
+    .boton-modal2{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal2 label{
+        padding: 10px 15px;
+        background-color: rgb(19, 159, 21);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal2 label:hover{
+        background-color: rgb(31, 93, 32);
+    }
+    #btn-modal2{
+        display: none;
+    }
+    .container-modal2{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal2:checked ~ .container-modal2{
+        display: flex;
+    }
+    .content-modal2{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content2-modal h2{
+        margin-bottom: 15px;
+    }
+    .content2-modal p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal2 .btn-cerrar2{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal2 .btn-cerrar2 label{
+        padding: 7px 10px;
+        background-color: rgb(31, 93, 32);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal2 .btn-cerrar2 label:hover{
+        background-color: rgb(19, 159, 21);
+    }
+
+    .boton-modal3{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal3 label{
+        padding: 10px 15px;
+        background-color: rgb(126, 15, 15);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal3 label:hover{
+        background-color: rgb(179, 10, 10);
+    }
+    #btn-modal3{
+        display: none;
+    }
+    .container-modal3{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal3:checked ~ .container-modal3{
+        display: flex;
+    }
+    .content-modal3{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-modal3 h2{
+        margin-bottom: 15px;
+    }
+    .content-modal3 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal3 .btn-cerrar3{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal3 .btn-cerrar3 label{
+        padding: 7px 10px;
+        background-color: rgb(179, 10, 10);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal3 .btn-cerrar3 label:hover{
+        background-color: rgb(126, 15, 15);
+    }
+
+    .boton-modal4{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal4 label{
+        padding: 10px 15px;
+        background-color: rgb(186, 15, 161);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal4 label:hover{
+        background-color: rgb(97, 37, 88);
+    }
+    #btn-modal4{
+        display: none;
+    }
+    .container-modal4{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal4:checked ~ .container-modal4{
+        display: flex;
+    }
+    .content-modal4{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-modal4 h2{
+        margin-bottom: 15px;
+    }
+    .content-modal4 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal4 .btn-cerrar4{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal4 .btn-cerrar4 label{
+        padding: 7px 10px;
+        background-color: rgb(97, 37, 88);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal4 .btn-cerrar4 label:hover{
+        background-color: rgb(186, 15, 161);
+    }
+
+    .boton-modal6{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal6 label{
+        padding: 10px 15px;
+        background-color: rgb(16, 184, 190);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal6 label:hover{
+        background-color: rgb(9, 81, 84);
+    }
+    #btn-modal6{
+        display: none;
+    }
+    .container-modal6{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal6:checked ~ .container-modal6{
+        display: flex;
+    }
+    .content-modal6{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-modal h2{
+        margin-bottom: 15px;
+    }
+    .content-modal6 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal6 .btn-cerrar6{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal6 .btn-cerrar6 label{
+        padding: 7px 10px;
+        background-color: rgb(9, 81, 84);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal6 .btn-cerrar6 label:hover{
+        background-color: rgb(16, 184, 190);
+    }
+
+    .boton-modal7{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal7 label{
+        padding: 10px 15px;
+        background-color: rgb(49, 65, 3);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal7 label:hover{
+        background-color: rgb(122, 156, 31);
+    }
+    #btn-modal7{
+        display: none;
+    }
+    .container-modal7{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal7:checked ~ .container-modal7{
+        display: flex;
+    }
+    .content-modal7{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-modal7 h2{
+        margin-bottom: 15px;
+    }
+    .content-modal7 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal7 .btn-cerrar7{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal7 .btn-cerrar7 label{
+        padding: 7px 10px;
+        background-color: rgb(122, 156, 31);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal7 .btn-cerrar7 label:hover{
+        background-color: rgb(49, 65, 3);
+    }
+
+    .boton-modal8{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal8 label{
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal8 label:hover{
+    }
+    #btn-modal8{
+        display: none;
+    }
+    .container-modal8{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal8:checked ~ .container-modal8{
+        display: flex;
+    }
+    .content-modal8{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-modal8 h2{
+        margin-bottom: 15px;
+    }
+    .content-modal8 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal8 .btn-cerrar8{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal8 .btn-cerrar8 label{
+        padding: 7px 10px;
+        background-color: rgb(122, 156, 31);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal8 .btn-cerrar8 label:hover{
+        background-color: rgb(49, 65, 3);
+    }
+
+    .boton-modal10{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal10 label{
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal10 label:hover{
+    }
+    #btn-modal10{
+        display: none;
+    }
+    .container-modal10{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal10:checked ~ .container-modal10{
+        display: flex;
+    }
+    .content-modal10{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-moda10 h2{
+        margin-bottom: 15px;
+    }
+    .content-modal10 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal10 .btn-cerrar10{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal10 .btn-cerrar10 label{
+        padding: 7px 10px;
+        background-color: rgb(192, 91, 183);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal10 .btn-cerrar10 label:hover{
+        background-color: rgb(56, 4, 52);
+    }
+
+    .boton-modal12{
+        padding: 40px;
+        background: none;
+    }
+    .boton-modal12 label{
+        padding: 10px 15px;
+        background-color: rgb(9, 9, 84);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .boton-modal12 label:hover{
+        background-color: rgb(26, 26, 192);
+    }
+    #btn-modal12{
+        display: none;
+    }
+    .container-modal12{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(144, 148, 150, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    #btn-modal12:checked ~ .container-modal12{
+        display: flex;
+    }
+    .content-modal12{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .content-modal12 h2{
+        margin-bottom: 15px;
+    }
+    .content-modal12 p{
+        padding: 15px 0px;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .content-modal12 .btn-cerrar12{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content-modal12 .btn-cerrar12 label{
+        padding: 7px 10px;
+        background-color: rgb(9, 9, 84);
+        color: sandybrown;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all ease;
+    }
+    .content-modal12 .btn-cerrar12 label:hover{
+        background-color: rgb(26, 26, 192);
+    }
